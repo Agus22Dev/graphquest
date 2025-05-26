@@ -8,7 +8,7 @@ Este programa implementa un laberinto interactivo donde el jugador puede explora
 2. Compila el programa con el siguiente comando:
 
    ```bash
-   gcc -o graphquest main.c tdas/list.c tdas/extra.c -lm
+   gcc graphquest.c tdas/*.c -o graphquest
    ```
 
    Asegúrate de que los archivos `list.c`, `list.h`, `extra.c` y `extra.h` estén en la carpeta `tdas/`.
